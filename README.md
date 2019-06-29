@@ -1,6 +1,6 @@
-#Laravel exceptions handler 
+# Laravel exceptions handler 
 
-###Go to the "app/Exceptions/Handler.php"
+### Go to the "app/Exceptions/Handler.php"
 Update the code that is present with the one below :
 ```php
 public function render($request, Exception $exception)
@@ -22,7 +22,7 @@ public function render($request, Exception $exception)
     }
 ```
 
-###Set up the Route 
+### Set up the Route 
 
 ```php
 Route::get('/404', function () {
@@ -36,4 +36,4 @@ Route::get('/405', function () {
 });
 ```
 
-###That's it :)
+### That's it :)
